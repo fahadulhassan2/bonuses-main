@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "specify-personal-expanded-black";
+    src: url("/fonts/SpecifyPERSONAL-ExpBlack.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "DM Sans";
+    src: url("/fonts/DMSans-Regular.ttf") format("truetype");
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-family: DM Sans, sans-serif;
+  background-color: #0f0f41;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.liner:hover
+{
+  background: rgb(29,29,87);
+background: linear-gradient(90deg, rgba(29,29,87,1) 27%, rgba(52,54,129,1) 50%, rgba(29,29,87,1) 77%);
+
+
+box-shadow: inset 0px 0px 44px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.hur:hover{
+  background: rgb(29,29,97);
+}
+
+
+
+.bg-set{
+background-image: url('.././public/static/bg-set.png') !important;
+
+background-repeat: no-repeat !important;
+background-size: cover!important;
+}
