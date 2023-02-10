@@ -7,6 +7,8 @@ npm run dev
 # or
 yarn dev
 ```
+## Deployed Link
+https://bonuses-fe.vercel.app/
 ## page # 1
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 ![image](https://user-images.githubusercontent.com/54173716/218117745-0add7c19-41f6-465f-9972-932b27e094f5.png)
